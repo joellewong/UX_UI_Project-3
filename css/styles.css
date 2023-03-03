@@ -1,0 +1,46 @@
+body{
+    background-color: #25365B;
+}
+
+.Language{
+    color: #FFF9F5;
+    font-size: 16px;
+}
+
+.HeroSquare{
+    width: 1240px;
+    height: 634px;
+    background-color: rgba(255, 249, 245, 1);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.Navigation{
+    color: #25365B;
+    font-size: 20px;
+}
+
+h1{
+    color: #25365B;
+    font-size: 50px;
+}
+
+p{
+    color: #25365B;
+    font-size: 24px;
+}
+
+.Download{
+    background-color: #FFDE94;
+    border: 0px;
+    width: 218px;
+    height: 68px;
+    font-size: 24px;
+}
+
+.SignUp{
+    width: 218px;
+    height: 68px;
+    font-size: 24px;
+}
