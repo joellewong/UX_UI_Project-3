@@ -1,46 +1,116 @@
-body{
-    background-color: #25365B;
+/* CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
 }
 
-.Language{
+body{
+    background-image: url(/images/landing-page-bg.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+/* FONTS */
+h1 {
+    font-family: 'Podkova', serif;
+    font-size: 48px;
+    color: #1F2229;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #25365B;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #25365B;
+}
+
+/* Header */
+.language {
+    max-width: 85%;
+    margin: 48px auto;
+    text-align: right;
+}
+.language p, .language a {
     color: #FFF9F5;
     font-size: 16px;
 }
 
-.HeroSquare{
-    width: 1240px;
-    height: 634px;
-    background-color: rgba(255, 249, 245, 1);
-    margin: auto;
+.logo {
+    margin: 36px auto;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 
-.Navigation{
-    color: #25365B;
-    font-size: 20px;
+/* Hero */
+.heroSquare {
+    background-color: rgba(255, 249 ,245, 0.8);
+    backdrop-filter: blur(8px);
+    padding: 80px;
+    border-radius: 50px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    gap: 36px;
 }
 
-h1{
-    color: #25365B;
-    font-size: 50px;
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
-p{
-    color: #25365B;
+.mockup img{
+    height: 500px;
+}
+.nav {
+    padding-inline-start: 0px; /* preset at 24px */
+    list-style: none;
+    display: flex;
+    gap: 36px;
+}
+.nav a {
+    text-decoration: none;
+}
+.underline {
+    text-underline-offset: 8px;
+    text-decoration: underline #FFDE94 solid 3px;
+}
+
+/* Buttons */
+button {
+    padding: 16px 48px;
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
+    border-radius: 50px;
 }
 
-.Download{
+.CTA {
+    display: flex;
+    gap: 24px;
+    margin-top: auto;
+}
+
+.Download {
     background-color: #FFDE94;
-    border: 0px;
-    width: 218px;
-    height: 68px;
-    font-size: 24px;
+    border: none;
+    box-shadow: 1px 1px 4px rgba(31, 34, 41, 0.25);
+}
+.Download:hover {
+    background-color: #fad27d;
+    box-shadow: 2px 2px 6px rgba(31, 34, 41, 0.25);
 }
 
-.SignUp{
-    width: 218px;
-    height: 68px;
-    font-size: 24px;
+.SignUp {
+    background-color: #FFF9F5;
+    box-shadow: 1px 1px 4px rgba(31, 34, 41, 0.25);
+}
+.SignUp:hover {
+    background-color: #f7efea;
+    box-shadow: 2px 2px 6px rgba(31, 34, 41, 0.25);
 }
