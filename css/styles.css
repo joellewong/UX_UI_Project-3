@@ -30,10 +30,17 @@ a {
     color: #25365B;
 }
 
+.heroSquare a:hover {
+    color: #f7efea;
+    text-decoration: underline 5px;
+    text-underline-offset: 7px;
+    transition: 0.5s ease all;
+}
+
 /* Header */
 .language {
     max-width: 85%;
-    margin: 48px auto;
+    margin: 48px auto 10px auto;
     text-align: right;
 }
 .language p, .language a {
@@ -42,7 +49,7 @@ a {
 }
 
 .logo {
-    margin: 36px auto;
+    margin: 16px auto 36px auto;
     display: flex;
     justify-content: center;
 }
@@ -54,7 +61,7 @@ a {
     padding: 80px;
     border-radius: 50px;
     max-width: 85%;
-    margin: 0 auto;
+    margin: 0 auto 120px auto;
     display: flex;
     gap: 36px;
 }
@@ -113,4 +120,8 @@ button {
 .SignUp:hover {
     background-color: #f7efea;
     box-shadow: 2px 2px 6px rgba(31, 34, 41, 0.25);
+}
+
+.arr {
+    vertical-align: -1px;
 }
