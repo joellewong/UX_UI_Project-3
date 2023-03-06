@@ -6,7 +6,7 @@
 
 body{
     height: 100vh;
-    background-image: url(/images/landing-page-bg.png);
+    background-image: url(/UX_UI_Project-3/images/landing-page-bg.png);
     background-repeat: none;
     background-size: cover;
     background-position: center;
@@ -82,7 +82,7 @@ a {
 .nav a:hover {
     color: #f7efea;
     text-underline-offset: 8px;
-    text-decoration: underline solid 3px;
+    text-decoration: underline #f7efea solid 3px;
     transition: 0.5s ease all;
 }
 .active {
