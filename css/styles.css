@@ -31,12 +31,6 @@ a {
     color: #25365B;
 }
 
-.heroSquare a:hover {
-    color: #f7efea;
-    text-decoration: underline 5px;
-    text-underline-offset: 7px;
-    transition: 0.5s ease all;
-}
 
 /* Header */
 .language {
@@ -85,7 +79,13 @@ a {
 .nav a {
     text-decoration: none;
 }
-.underline {
+.nav a:hover {
+    color: #f7efea;
+    text-underline-offset: 8px;
+    text-decoration: underline solid 3px;
+    transition: 0.5s ease all;
+}
+.active {
     text-underline-offset: 8px;
     text-decoration: underline #FFDE94 solid 3px;
 }
