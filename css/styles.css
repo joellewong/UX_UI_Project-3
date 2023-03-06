@@ -5,6 +5,7 @@
 }
 
 body{
+    height: 100vh;
     background-image: url(/images/landing-page-bg.png);
     background-repeat: none;
     background-size: cover;
@@ -48,7 +49,7 @@ a {
     font-size: 16px;
 }
 
-.logo {
+#logo {
     margin: 16px auto 36px auto;
     display: flex;
     justify-content: center;
@@ -93,7 +94,7 @@ a {
 button {
     padding: 16px 48px;
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     border-radius: 50px;
 }
 
