@@ -2,11 +2,12 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 body{
     height: 100vh;
-    background-image: url(/UX_UI_Project-3/images/landing-page-bg.png);
+    background-image: url(/images/landing-page-bg.png);
     background-repeat: none;
     background-size: cover;
     background-position: center;
@@ -48,8 +49,18 @@ a {
     display: flex;
     justify-content: center;
 }
+.paw-logo {
+    width: 100%;
+    max-width: 180px;
+}
 
 /* Hero */
+.heroSquare-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 .heroSquare {
     background-color: rgba(255, 249 ,245, 0.8);
     backdrop-filter: blur(8px);
@@ -125,4 +136,48 @@ button {
 
 .arr {
     vertical-align: -1px;
+}
+
+@media (max-width: 920px ) {
+    .heroSquare {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .content {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .CTA {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .heroSquare {
+        padding: 40px;
+       
+    }
+}
+
+@media (max-width: 420px) {
+    h1 {
+        font-size: 36px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+
+    button {
+        padding: 10px 26px;
+    }
 }
