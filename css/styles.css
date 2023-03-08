@@ -7,7 +7,7 @@
 
 body{
     height: 100vh;
-    background-image: url(/UX-UI_Project-3/images/landing-page-bg.png);
+    background-image: url(UX-UI_Project-3/images/landing-page-bg.png);
     background-repeat: none;
     background-size: cover;
     background-position: center;
@@ -94,7 +94,7 @@ a {
     color: #f7efea;
     text-underline-offset: 8px;
     text-decoration: underline #f7efea solid 3px;
-    transition: 0.5s ease all;
+    transition: 0.3s ease all;
 }
 .active {
     text-underline-offset: 8px;
